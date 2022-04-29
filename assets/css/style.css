@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  width: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -348,9 +348,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  color: rgba(255, 255, 255);
+
+  /* margin-bottom: 50px; */
   font-size: 24px;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+ul li {
+  list-style: none;
+  
 }
 #hero .btn-get-started {
   font-family: "Jost", sans-serif;
